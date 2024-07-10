@@ -1,0 +1,56 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .texts {
+    padding: 10px;
+  }
+  
+  .texts h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    color: #040404;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .info .author,
+  .info .post-time,
+  .info .reading-time {
+    display: inline-block;
+  }
+  
+  .info .post-time,
+  .info .reading-time {
+    color: #040404;
+  }
+  
+  .summary {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
