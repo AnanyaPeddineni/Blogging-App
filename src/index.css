@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add styles for Login, Register, Create new post, Logout, and BlogSphere title in header */
+.auth-box,
+.nav-box,
+.logo-box {
+  display: inline-block;
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Prevents border overflow with padding */
+  margin-left: 10px; /* Adjust spacing between boxes */
+}
+
+.login-link,
+.register-link,
+.nav-link {
+  display: block;
+  padding: 10px 20px; /* Adjust padding inside each box */
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logo {
+  display: block;
+  padding: 10px 20px; /* Adjust padding inside each box */
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-link:hover,
+.register-link:hover,
+.nav-link:hover {
+  background-color: #90aabb; /* Background color on hover */
+}
+
+/* Specific styling for the logo */
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f7f4f4; /* Adjust the color as needed */
+  text-align: center;
+}
